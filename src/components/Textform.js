@@ -5,15 +5,21 @@ export default function Textform(props) {
         let newUpText = text.toUpperCase();      //uppercasing the text
         setText(newUpText); //updating the statevariable via state to new uppercased text
     }
-    const handleOnChange = (event) => {
-        console.log("changed ");
-        setText(event.target.value);    // seting value of state variable text to the text in textarea
-    }
 
     const handleLowClick = () => {
         console.log("Lowercased successully!");
         let newUpText = text.toLowerCase();      //lowercasing the text
         setText(newUpText); //updating the statevariable via state to new lowercased text
+    }
+
+    const handleClearClick = () => {
+        let newText = " ";
+        setText(newText)
+    }
+
+    const handleOnChange = (event) => {
+        console.log("changed ");
+        setText(event.target.value);    // seting value of state variable text to the text in textarea
     }
 
     // states
@@ -28,6 +34,7 @@ export default function Textform(props) {
                 </div>
                 <button className="btn btn-primary mx-1" onClick={handleUpClick}>Convert to Uppercase</button>
                 <button className="btn btn-primary mx-1" onClick={handleLowClick}>Convert to Lowercase</button>
+                <button className="btn btn-primary mx-1" onClick={handleClearClick}>Clear</button>
             </div>
 
             <div className="d-inline container my-4 ">
