@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/mrworld196wide/Text-Utilizer/static/css/main.073c9b0a.css",
+    "main.js": "/mrworld196wide/Text-Utilizer/static/js/main.9b8c3220.js",
+    "static/js/787.d8e04bf4.chunk.js": "/mrworld196wide/Text-Utilizer/static/js/787.d8e04bf4.chunk.js",
+    "index.html": "/mrworld196wide/Text-Utilizer/index.html",
+    "main.073c9b0a.css.map": "/mrworld196wide/Text-Utilizer/static/css/main.073c9b0a.css.map",
+    "main.9b8c3220.js.map": "/mrworld196wide/Text-Utilizer/static/js/main.9b8c3220.js.map",
+    "787.d8e04bf4.chunk.js.map": "/mrworld196wide/Text-Utilizer/static/js/787.d8e04bf4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.9b8c3220.js"
+  ]
+}
