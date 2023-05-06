@@ -6,8 +6,7 @@ import './App.css';
 import {
   BrowserRouter as Router,
   Routes,
-  Route,
-  Link
+  Route
 } from "react-router-dom";
 
 import About from './components/About';
@@ -56,7 +55,7 @@ function App() {
         <Alert alert={alert} />
         <div className="container my-3">
           <Routes>
-            <Route path="/about" element={<About />} />
+            <Route path="/about" element={<About mode={mode} />} />
             <Route path="/" element={<Textform showAlert={showAlert} heading="Enter your text below" mode={mode}/>} />
           </Routes>
         </div>
