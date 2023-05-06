@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 
 export default function About(props) {
     // state hook for changing the color of accordion to white/black
